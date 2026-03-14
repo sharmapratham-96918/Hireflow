@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://hireflow-wyy1.onrender.com",
+        target: "",
         changeOrigin: true,
         secure: false
       }
