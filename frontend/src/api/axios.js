@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "/api"
+  baseURL: "https://hireflow-wyy1.onrender.com/api"
 });
 
 // Attach token automatically
